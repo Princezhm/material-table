@@ -496,6 +496,7 @@ export default class MaterialTable extends React.Component {
               searchFieldStyle={props.options.searchFieldStyle}
               title={props.title}
               onSearchChanged={this.onSearchChange}
+              onFilterChanged={this.onFilterChange}
               onColumnsChanged={this.onChangeColumnHidden}
               localization={{ ...MaterialTable.defaultProps.localization.toolbar, ...this.props.localization.toolbar }}
             />
